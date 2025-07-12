@@ -48,4 +48,4 @@ for i in range (1, num+1):
 if(acierto!=True):
     print("No es primo")   
 else:
-    print("Es primo")                        
+    print("Es primo")                       

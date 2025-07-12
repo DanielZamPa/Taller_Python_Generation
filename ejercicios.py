@@ -31,3 +31,9 @@ num = int(input("Ingrese un numero: "))
 
 for c in range (1,11):
     print(num, "*",c," = ",num*c)
+
+#EJERCICIO 5
+ingreso = str(input("Ingresa una palabra: "))
+vocales = "aeiouAEIOU"
+contador = sum(1 for letra in ingreso if letra in vocales)   
+print("Cantidad de vocales: ", contador) 
